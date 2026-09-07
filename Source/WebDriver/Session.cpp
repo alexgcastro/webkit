@@ -2757,7 +2757,7 @@ static Ref<JSON::Object> builtAutomationCookie(const Session::Cookie& cookie)
     cookieObject->setBoolean("httpOnly"_s, cookie.httpOnly.value_or(false));
     cookieObject->setBoolean("session"_s, !cookie.expiry);
     cookieObject->setDouble("expires"_s, cookie.expiry.value_or(0));
-    cookieObject->setString("sameSite"_s, cookie.sameSite.value_or("None"_s));
+    cookieObject->setString("sameSite"_s, cookie.sameSite.value_or("Lax"_s));
     return cookieObject;
 }
 

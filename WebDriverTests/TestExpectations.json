@@ -388,22 +388,6 @@
             }
         }
     },
-    "imported/selenium/py/test/selenium/webdriver/common/cookie_tests.py": {
-        "subtests": {
-            "test_add_cookie": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_get_all_cookies": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_should_not_delete_cookies_with_asimilar_name": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_delete_cookie_raises_value_error_for_empty_name": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            }
-        }
-    },
 
     "imported/selenium/py/test/selenium/webdriver/common/element_attribute_tests.py": {
         "subtests": {
@@ -711,56 +695,11 @@
                 }
             }
 
-
-        }
-    },
-
-    "imported/w3c/webdriver/tests/classic/add_cookie/user_prompts.py": {
-        "subtests": {
-            "test_accept[alert-None]": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_accept[confirm-True]": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_accept[prompt-]": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_dismiss[alert-None]": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_dismiss[confirm-False]": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_dismiss[prompt-None]": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            }
         }
     },
 
     "imported/w3c/webdriver/tests/classic/add_cookie/add.py": {
         "subtests": {
-            "test_add_cookie_with_expiry_in_the_future": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_add_cookie_for_ip": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_add_cookie_with_valid_samesite_flag[None]": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_add_domain_cookie": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_add_session_cookie": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_add_session_cookie_with_leading_dot_character_in_domain": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
-            "test_add_non_session_cookie": {
-                "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-            },
             "test_cookie_unsupported_scheme[about]": {
                 "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/230616"}}
             },
@@ -815,14 +754,6 @@
                 "expected": {"wpe": {"status": ["PASS"], "bug": "webkit.org/b/212950"}}
             }
         }
-    },
-
-    "imported/w3c/webdriver/tests/classic/delete_all_cookies/user_prompts.py": {
-        "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
-    },
-
-    "imported/w3c/webdriver/tests/classic/delete_cookie/user_prompts.py": {
-        "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
     },
 
     "imported/w3c/webdriver/tests/classic/forward/forward.py": {
@@ -2112,10 +2043,6 @@
                 "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/182330"}}
             }
         }
-    },
-
-    "imported/w3c/webdriver/tests/classic/get_named_cookie/user_prompts.py": {
-        "expected": {"all": {"status": ["FAIL"], "bug": "webkit.org/b/279079"}}
     },
 
     "imported/w3c/webdriver/tests/classic/element_clear/clear.py": {
